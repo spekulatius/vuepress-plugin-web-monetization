@@ -1,0 +1,22 @@
+{
+  "name": "vuepress-plugin-web-monetization",
+  "version": "0.0.1",
+  "description": "Monetize your VuePress site using web-monetization",
+  "main": "index.js",
+  "keywords": [
+    "vuepress",
+    "plugin",
+    "monetization",
+    "web-monetization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spekulatius/vuepress-plugin-web-monetization.git"
+  },
+  "author": "Peter Thaleikis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spekulatius/vuepress-plugin-web-monetization/issues"
+  },
+  "homepage": "https://peterthaleikis.com"
+}
