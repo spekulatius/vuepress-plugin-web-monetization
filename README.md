@@ -2,11 +2,17 @@
 
 Adds a web-monetization meta tag to your VuePress website. This allows you to monetize your content using the [web-monetization standard](https://webmonetization.org/).
 
+
 ## Installation
 
 ```bash
-npm i vuepress-plugin-web-monetization
+npm install vuepress-plugin-web-monetization
+
+# or
+
+yarn add vuepress-plugin-web-monetization
 ```
+
 
 ## Usage
 
@@ -27,6 +33,12 @@ This includes the address as an optional parameter (here: `$ilp.uphold.com/DrRw6
 monetization: "$ilp.uphold.com/DrRw6MnEEqBB"
 ---
 ```
+
+
+## Privacy-friendly tracking for VuePress?
+
+If you value privacy, you might like this [VuePress plugin for Umami](https://github.com/spekulatius/vuepress-plugin-umami).
+
 
 ## License
 

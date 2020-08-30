@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-web-monetization",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Monetize your VuePress site using web-monetization",
   "main": "index.js",
   "keywords": [
