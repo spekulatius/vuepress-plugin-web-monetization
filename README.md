@@ -42,4 +42,4 @@ If you value privacy, you might like this [VuePress plugin for Umami](https://gi
 
 ## License
 
-This package is release under the MIT license by [Peter Thaleikis](https://peterthaleikis.com).
+This package is released under the MIT license by [Peter Thaleikis](https://peterthaleikis.com).
