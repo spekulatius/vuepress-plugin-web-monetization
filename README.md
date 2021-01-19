@@ -1,4 +1,4 @@
-# Vuepress Plugin Web-Monetization
+# VuePress Plugin Web-Monetization
 
 Adds a web-monetization meta tag to your [VuePress](https://github.com/vuejs/vuepress) website. This allows you to monetize your content using the [web-monetization standard](https://webmonetization.org/).
 
