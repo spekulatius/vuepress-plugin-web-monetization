@@ -1,15 +1,11 @@
-module.exports = (options = {}, context) => {
-  return {
-    extendPageData ($page) {
-      // Should we use the address from the site config or from the frontmatter?
-      // For more better understandability it's referred to as 'address'
-      // ..in the config while 'monetization' in the frontmatter.
-      const address = $page.frontmatter.monetization || options.address
+const path = require("path");
 
-      // Add the meta tag
-      let meta = $page.frontmatter.meta || []
-      meta.push({ 'name': 'monetization', 'content': address })
-      $page.frontmatter.meta = meta
-    }
-  }
-}
+module.exports = (options = {}) => {
+  return {
+    define: {
+      MONETIZATION_ADDRESS: options.address || null,
+    },
+    // client-side app enhancement file is
+    enhanceAppFiles: path.resolve(__dirname, "enhanceApp.js"),
+  };
+};
